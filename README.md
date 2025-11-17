@@ -63,3 +63,36 @@ All dependencies are listed in requirements.txt.
 
 Ananya Gaur
 Credit Scoring Model – Internship Submission
+
+
+
+
+TASK 2 — Iris Flower Classification
+
+Colab Notebook:
+https://colab.research.google.com/drive/1xYbzBYV5yvijkO18b2V0yJLzs9fl8YiX?authuser=0#scrollTo=wUdpvtpY60JU
+
+Model File:
+
+models/iris_model.pkl
+
+Notebook File:
+
+notebooks/task2_iris_classification.ipynb
+
+Description:
+This task focuses on building a machine learning classification model using the classic Iris dataset.
+Steps completed:
+
+Loaded Iris dataset using Scikit-learn
+
+Performed train–test split (80% train / 20% test)
+
+Trained Random Forest Classifier
+
+Evaluated model using accuracy and classification report
+
+Saved the trained model as iris_model.pkl
+
+Result:
+Successfully achieved high accuracy on test data.
