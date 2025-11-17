@@ -96,3 +96,38 @@ Saved the trained model as iris_model.pkl
 
 Result:
 Successfully achieved high accuracy on test data.
+
+
+
+TASK 3 — Streamlit Dashboard
+
+App File:
+
+app/app.py
+
+Model Used:
+
+models/iris_model.pkl
+
+Notebook:
+
+Built and tested in Colab
+
+Description:
+In this task, a simple Streamlit web application was created to make predictions using the trained Iris Classification Model.
+The app contains:
+
+A clean UI with sliders for input values
+
+Loads the saved model (iris_model.pkl)
+
+Predicts Iris flower species (Setosa, Versicolor, Virginica)
+
+Displays the result interactively
+
+How to Run the App (Locally):
+
+pip install streamlit
+streamlit run app.py
+
+This launches the dashboard in a browser window.
